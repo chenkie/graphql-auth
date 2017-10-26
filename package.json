@@ -1,0 +1,27 @@
+{
+  "name": "graphql-auth",
+  "version": "0.0.0",
+  "description": "Authentication and authorization demonstration for GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ryan Chenkie <ryan@elevatedigital.io>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-errors": "^1.5.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "express-jwt": "^5.3.0",
+    "graphql": "^0.11.7",
+    "graphql-custom-directive": "^0.1.9",
+    "graphql-tools": "^2.6.1",
+    "jsonwebtoken": "^8.1.0",
+    "jwt-decode": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
